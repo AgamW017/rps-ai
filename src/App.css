@@ -72,7 +72,6 @@ body {
   height: 100%;
 }
 
-
 #detection-results {
   margin-top: 20px;
   padding: 10px;
@@ -85,31 +84,15 @@ body {
   text-align: center;
 }
 
-#detection-results ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-#detection-results li {
-  margin: 5px 0;
-  font-size: 1.2em;
-  color: #ffffff;
-}
-
 #ai-results {
   margin-top: 20px;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  background-color: #f9f9f9;
+  background-color: #00549e;
   box-shadow: 0 0 5px rgba(0,0,0,0.1);
   width: 45vh;
   text-align: center;
-}
-
-#ai-results p {
-  list-style-type: none;
-  padding: 0;
 }
 
 #score {
