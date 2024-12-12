@@ -10,6 +10,7 @@
     "@testing-library/user-event": "^7.1.2",
     "axios": "^1.7.7",
     "fingerpose": "0.0.2",
+    "firebase": "^11.0.2",
     "jquery": "^3.7.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",

@@ -10,6 +10,8 @@ import { rock } from "./rock";
 import { scissors } from "./scissors";
 import { thumbsup } from "./thumbsup";
 import * as fp from "fingerpose";
+import { getDatabase, ref, push, serverTimestamp } from "firebase/database";
+import { app, database } from './firebaseConfig';
  
 const findMostOccurring = (arr) => {
 	const frequency = {};
@@ -53,10 +55,15 @@ function App() {
 					let act_move = findMostOccurring(mod);
 					document.getElementById("detection-results").innerText = "Human Move: " + act_move;
 
-					//
 					if (act_move === "thumbsup") {
 						document.getElementById("ai-results").innerText = "Game Paused";}
 					else {
+						// Send move data to Firebase
+						const movesRef = ref(database, 'moves');
+						push(movesRef, {
+							move: act_move,
+							timestamp: serverTimestamp()
+						});
 						
 					}
             });
