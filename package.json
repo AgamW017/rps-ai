@@ -2,6 +2,7 @@
   "name": "handpose",
   "version": "0.1.0",
   "private": true,
+  "homepage": ".",
   "dependencies": {
     "@tensorflow-models/handpose": "0.0.6",
     "@tensorflow/tfjs": "^2.4.0",
