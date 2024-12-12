@@ -1,5 +1,5 @@
 import React, { useRef, useState, useEffect } from "react";
-import * as tf from "@tensorflow/tfjs";
+// import * as tf from "@tensorflow/tfjs";
 import * as handpose from "@tensorflow-models/handpose";
 import '@tensorflow/tfjs-backend-webgl';
 import Webcam from "react-webcam";
@@ -10,8 +10,8 @@ import { rock } from "./rock";
 import { scissors } from "./scissors";
 import { thumbsup } from "./thumbsup";
 import * as fp from "fingerpose";
-import { getDatabase, ref, push, serverTimestamp } from "firebase/database";
-import { app, database } from './firebaseConfig';
+import { ref, push, serverTimestamp } from "firebase/database";
+import { database } from './firebaseConfig';
  
 const findMostOccurring = (arr) => {
 	const frequency = {};
