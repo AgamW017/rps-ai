@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/rps-ai/static/css/main.4a32901c.css",
+    "main.js": "/rps-ai/static/js/main.a2bbac55.js",
+    "index.html": "/rps-ai/index.html",
+    "main.4a32901c.css.map": "/rps-ai/static/css/main.4a32901c.css.map",
+    "main.a2bbac55.js.map": "/rps-ai/static/js/main.a2bbac55.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4a32901c.css",
+    "static/js/main.a2bbac55.js"
+  ]
+}
