@@ -2,17 +2,17 @@
 import { initializeApp } from "firebase/app";
 import { getDatabase } from "firebase/database";
 // TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
+// httpsz://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "YOUR_API_KEY",
-    authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
+    apiKey: "AIzaSyBQQV9bVPKlx1tUlXNdJdp0Wc-Wrtm_kGs",
+    authDomain: "rps-ai-7848f.firebaseapp.com",
     databaseURL: "https://rps-ai-7848f-default-rtdb.asia-southeast1.firebasedatabase.app/",
-    projectId: "YOUR_PROJECT_ID",
-    storageBucket: "YOUR_PROJECT_ID.appspot.com",
-    messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-    appId: "YOUR_APP_ID"
+    projectId: "rps-ai-7848f",
+    storageBucket: "rps-ai-7848f.firebasestorage.app",
+    messagingSenderId: "764483660405",
+    appId: "1:764483660405:web:eacaa17986eb9e1e1c663c"
 };
 
 // Initialize Firebase

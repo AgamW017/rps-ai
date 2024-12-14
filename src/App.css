@@ -36,7 +36,7 @@ body {
   justify-content: center;
   align-items: center;
   width: 70%; /* Adjust width to fit better */
-  height: 56vh; /* Adjust height to maintain aspect ratio */
+  height: 80vh; /* Adjust height to maintain aspect ratio */
 }
 
 .webcam-container {
@@ -80,22 +80,19 @@ body {
   color: #f9f9f9;
   background-color: #00549e;
   box-shadow: 0 0 5px rgba(0,0,0,0.1);
-  width: 45vh;
-  text-align: center;
-}
-
-#ai-results {
-  margin-top: 20px;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  background-color: #00549e;
-  box-shadow: 0 0 5px rgba(0,0,0,0.1);
-  width: 45vh;
   text-align: center;
 }
 
 #score {
   width : 30%;
   height: 100%;
+}
+footer {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  padding-left: 30vw;
+  color: #f1f1f1;
+  width: 100%;
 }
