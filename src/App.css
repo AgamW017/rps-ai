@@ -6,27 +6,9 @@ body {
   padding: 0;
   align-items: center;
   height: 100vh;
+  width: 100%;
 }
-@media (orientation: landscape) {
-  #game {
-    flex-direction: row;
-  }
-  .frames{
-    width: 70%;
-  }}
-  @media (orientation: portrait) {
-    #game {
-      flex-direction: column;
-    }
-    .frames{
-      width: 100%;
-    }
-    footer{
-      padding-left: 0 !important ;
-      padding-right: 0 !important;
 
-    }
-}
 #root {
   width: 100%;
 }
@@ -41,6 +23,7 @@ body {
 
 #game {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -51,12 +34,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80vh; /* Adjust height to maintain aspect ratio */
+  height: 78vh; /* Adjust height to maintain aspect ratio */
+  width: 70%;
 }
 
 .frame {
   margin: 10px;
-  padding: 10px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0,0,0,0.5);
   width: 80%;
@@ -90,6 +73,7 @@ body {
 
 #detection-results {
   margin-top: 20px;
+  margin-bottom: 20px;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -102,13 +86,31 @@ body {
 #score {
   width : 30%;
   height: 100%;
+  padding-right: 20px;
 }
 footer {
   overflow: hidden;
   display: flex;
   justify-content: center;
-  padding: 10px;
-  padding-left: 30vw;
-  color: #f1f1f1;
+  color: #f1f1f188;
+  padding-top:30px;
+  padding-bottom: 10px;
   width: 100%;
+}
+
+@media (orientation: portrait) {
+  #game {
+    flex-direction: column;
+  }
+  .frames{
+    width: 100%;
+  }
+  footer{
+    padding: 20px 0;
+  }
+  #score{
+    text-align: center;
+    width: 50%;
+    padding-right: 0;
+  }
 }
