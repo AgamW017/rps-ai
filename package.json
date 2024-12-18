@@ -43,5 +43,9 @@
   },
   "devDependencies": {
     "gh-pages": "^6.2.0"
-  }
+  },
+  "description": "The program using uses Computer Vision to detect the user's move and plays the counter to the most probable move.",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC"
 }
