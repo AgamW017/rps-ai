@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/rps-ai/static/css/main.fdceb9a3.css",
-    "main.js": "/rps-ai/static/js/main.1ef21f20.js",
+    "main.css": "/rps-ai/static/css/main.0082568f.css",
+    "main.js": "/rps-ai/static/js/main.60488f75.js",
     "index.html": "/rps-ai/index.html",
-    "main.fdceb9a3.css.map": "/rps-ai/static/css/main.fdceb9a3.css.map",
-    "main.1ef21f20.js.map": "/rps-ai/static/js/main.1ef21f20.js.map"
+    "main.0082568f.css.map": "/rps-ai/static/css/main.0082568f.css.map",
+    "main.60488f75.js.map": "/rps-ai/static/js/main.60488f75.js.map"
   },
   "entrypoints": [
-    "static/css/main.fdceb9a3.css",
-    "static/js/main.1ef21f20.js"
+    "static/css/main.0082568f.css",
+    "static/js/main.60488f75.js"
   ]
 }
