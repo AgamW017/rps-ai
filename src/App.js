@@ -88,8 +88,9 @@ function App() {
 				  initiate();
 				  console.log("Game reset.");
 				  document.getElementById("score").innerHTML = "<h1>Score:</h1><p>Human: 0</p><p>AI: 0</p><p>Thumbsup to reset, Remove hand to pause.</p>";
-				} else if (act_move !== "none") {
+				} else if (act_move && act_move !== "none") {
 				  // Send move data to Firebase
+				  console.log('sending ', act_move)
 				  const movesRef = ref(database, 'moves');
 				  push(movesRef, {
 					move: act_move,
