@@ -23,6 +23,11 @@ body {
     .frames{
       width: 100%;
     }
+    footer{
+      padding-left: 0 !important ;
+      padding-right: 0 !important;
+
+    }
 }
 #root {
   width: 100%;
