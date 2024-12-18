@@ -19,7 +19,7 @@ const overlayStyle = {
   display: 'flex',
   justifyContent: 'center',
   alignItems: 'center',
-  zIndex: 9999,
+  zIndex: 6969,
 };
 
 const textStyle = {
