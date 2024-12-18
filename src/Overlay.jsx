@@ -25,6 +25,8 @@ const overlayStyle = {
 const textStyle = {
   fontSize: '2rem',
   fontWeight: 'bold',
+  margin: '2rem',
+  textAlign: 'center',
 };
 
 export default Overlay;
